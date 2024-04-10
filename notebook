@@ -1,0 +1,20 @@
+---
+title: "R Notebook - Classificatio/Prediction ARVC usign ECG data"
+output: html_notebook
+---
+## Packages
+```{r}
+library(dplyr) #pipe function %>% for subset
+library(scales) # normalize
+library(ggplot2) # general plots
+library(tidyr) # operator
+library(outliers) # detection output
+library(corrplot) # correlation matrix plot
+library(viridis) # colors plots
+library(colorspace) # colors plots
+library(cluster) # to cluster using pam() function
+library(factoextra)
+library(caTools)
+library(randomForest)
+library(caret) # confuse matrix
+```
